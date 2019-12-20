@@ -1,0 +1,16 @@
+test_iter: 80194
+test_interval: 100493
+base_lr: 0.0049999999
+display: 500
+max_iter: 1004930
+lr_policy: "step"
+gamma: 0.0049999999
+momentum: 0.89999998
+weight_decay: 9.9999997e-05
+stepsize: 502465
+snapshot: 100
+snapshot_prefix: "tmp/rnet"
+solver_mode: CPU
+net: "proto/r_train_val.prototxt"
+test_initialization: false
+average_loss: 500

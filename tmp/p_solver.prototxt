@@ -1,0 +1,16 @@
+test_iter: 100362
+test_interval: 100882
+base_lr: 0.28
+display: 500
+max_iter: 504410
+lr_policy: "step"
+gamma: 9.9999997e-05
+momentum: 0.89999998
+weight_decay: 9.9999997e-05
+stepsize: 504410
+snapshot: 100
+snapshot_prefix: "tmp/pnet"
+solver_mode: CPU
+net: "proto/p_train_val.prototxt"
+test_initialization: false
+average_loss: 500

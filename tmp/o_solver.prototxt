@@ -1,0 +1,16 @@
+test_iter: 82778
+test_interval: 88872
+base_lr: 0.001
+display: 500
+max_iter: 888720
+lr_policy: "step"
+gamma: 0.0099999998
+momentum: 0.89999998
+weight_decay: 9.9999997e-05
+stepsize: 888720
+snapshot: 100
+snapshot_prefix: "tmp/onet"
+solver_mode: GPU
+net: "proto/o_train_val.prototxt"
+test_initialization: false
+average_loss: 500

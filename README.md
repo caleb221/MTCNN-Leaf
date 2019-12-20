@@ -11,6 +11,17 @@ and use it on an ESP-32 AI-Thinker WiFi Camera module.
 # MTCNN
 https://arxiv.org/pdf/1604.02878.pdf 
 
+# SETUP
+You'll need caffe installed, and setup can be done in the same way as 
+
+https://github.com/lincolnhard/mtcnn-head-detection
+
+There are a few Data preprocessing python scripts I also made to
+help clean out the datasets I used. They are included at the top level directory.
+
+There is also a python script that extracts the weights from a Caffe model and forms them into a numpy array file. This is used to translate the weights from one framework (caffe) to another (ESP-Face) The translation code is included in the ESP32-Leaf repository because it is a specific translation for that framework.
+
+
 # Output
 --> could use some improvement, but overall it found some leaves 
 

@@ -6,7 +6,7 @@ This repo is the source code for implementing MTCNN using Caffe.
 This was the first half of my Thesis project.
 The goal is to re-purpose the MTCNN Facial detection model 
 and use it on an ESP-32 AI-Thinker WiFi Camera module.
---> That code is in another repository
+--> That code is in another repository: <a href="https://github.com/caleb221/ESP32-Leaf"> ESP32-Leaf</a>
 
 # MTCNN
 https://arxiv.org/pdf/1604.02878.pdf 
